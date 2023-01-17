@@ -8,10 +8,11 @@ const ListadoGastos = ({gastos}) => {
 
         { gastos.map( gasto => (
             <Gasto 
-                key={gasto.id}
-                gasto={gasto}
+              key={gasto.id}
+              gasto={gasto}
             />
-            ))
+            )
+          )
         }
 
     </div>
